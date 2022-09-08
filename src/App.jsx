@@ -9,10 +9,10 @@ import Header from './components/shared/Header'
 import { useEffect } from 'react'
 import axios from 'axios'
 import Cart from './components/shared/Cart'
-import Footer from './components/shared/footer'
 import ProtectedRoutes from './components/Routes/ProtectedRoutes'
 import { useDispatch } from 'react-redux'
 import { getAllProducts } from './store/slices/products.slice'
+import Footer from './components/shared/Footer'
 
 
 function App() {
@@ -47,10 +47,7 @@ function App() {
         </Route>
         <Route path='/product/:id' element={<ProductDetails />} />
       </Routes>
-      <footer>
-        <Footer />
-      </footer>
-
+      <Footer/>
     </div>
 
   )
