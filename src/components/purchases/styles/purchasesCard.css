@@ -1,0 +1,13 @@
+.cart__purchase {
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+
+  border: 1px solid var(--gray);
+}
+
+.cart__purchase__date {
+  border-bottom: 1px solid var(--gray);
+  padding: 20px;
+  color: var(--black-text);
+}

@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background);
+}
+
+.home__filters {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 0px;
+  width: 200px;
+  max-height: calc(100% - 140px);
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  gap: 10px;
+}
+
+.home__filters__btn {
+  border: none;
+  background: none;
+  color: var(--black-text);
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.home__filters__btn:hover {
+  text-shadow: 0px 0px 1px var(--black-text);
+}
+
+.delete {
+  color: red;
+}
+
+.home__contairer__card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 90px 0 20px 200px;
+}

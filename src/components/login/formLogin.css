@@ -1,0 +1,57 @@
+.login__form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+.login__tittle {
+  color: var(--black-text);
+}
+
+.login__div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login__label {
+  color: var(--black-text);
+}
+
+.login__input {
+  background: none;
+  border: 1px solid var(--gray);
+  height: 35px;
+  width: 100%;
+}
+
+.login__btn {
+  height: 35px;
+  background-color: var(--primary);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login__sign__up {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.login__create {
+  color: var(--black-text);
+  font-size: 14px;
+}
+
+.login__btn__create {
+  background: none;
+  border: none;
+  color: #2fa8f8;
+  cursor: pointer;
+}

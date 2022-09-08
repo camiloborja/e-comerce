@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid var(--gray);
+  box-shadow: 0px -5px 5px rgba(128, 128, 128, 0.398);
+}
+
+.footer__logo {
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__btn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+
+.footer__btn:hover {
+  text-shadow: 0px 0px black;
+}
+
+.footer__safe {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 10px;
+}
+
+.footer__safe__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer__safe p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer__safe i {
+  font-size: 3rem;
+}
+
+.footer__safe span {
+  font-size: 10px;
+  text-align: start;
+}
+
+.footer__social {
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+  gap: 20px;
+}
+
+.footer__social i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.footer__social i:hover {
+  text-shadow: 0px 0px black;
+}
+
+.copyright {
+  padding: 30px;
+  border-top: 1px solid gray;
+}
+
+.copyright p {
+  color: gray;
+  font-size: 12px;
+}

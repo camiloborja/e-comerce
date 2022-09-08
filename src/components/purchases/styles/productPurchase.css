@@ -1,0 +1,28 @@
+.card__purchase__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.card__pruchase__name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: right;
+  width: 300px;
+  padding-left: 20px;
+  color: var(--dark-gray);
+}
+
+.card__purchase__quantity {
+  padding: 5px 10px;
+  border: 1px solid var(--dark-gray);
+}
+
+.card__purchase__price {
+  color: var(--black-text);
+  font-weight: bold;
+  width: 50px;
+}

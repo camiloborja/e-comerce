@@ -1,0 +1,77 @@
+.card__home {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  padding: 25px;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.card__home:hover {
+  box-shadow: 0px 0px 30px 1px var(--gray);
+  transform: scale(1.02);
+}
+
+.card__home__header {
+  height: 250px;
+  overflow: hidden;
+}
+
+.card__home__img {
+  height: 100%;
+}
+
+.card__home__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card__home__name {
+  color: var(--black-text);
+  font-weight: bold;
+  height: 50px;
+}
+
+.card__home__price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__home__price__label {
+  color: var(--gray);
+}
+
+.card__home__value {
+  color: var(--black-text);
+  font-weight: bold;
+}
+
+.card__btn__container {
+  display: flex;
+  justify-content: right;
+}
+
+.card__home__btn {
+  display: flex;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  font-size: 1.6rem;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: var(--primary);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card__home__btn:hover {
+  transform: scale(1.1);
+}
